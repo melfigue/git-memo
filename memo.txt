@@ -62,3 +62,11 @@ Cette configuration est à faire une fois par projet git, et seulement
 si l'on souhaite le partager / le sauvegarder sur github.
 
 ===================================
+
+commande : git push -u origin master
+
+description : configure notre projet pour qu'il s'envoie par défaut
+sur le dépôt "origin" et sur sa branhe "master".
+Cette commande n'est à entrer qu'une fois par projet.
+Cette commande nécessite d'avoir ajouté un dépôt 
+avec la commande "git remote".
