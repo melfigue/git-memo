@@ -10,3 +10,17 @@ description : faire le bilan de l'état actuel de notre projet git.
 - indique toujours que l'on est sur la branche "master"
 - en rouge : les modifications qui ne seront pas enregistrées
 - en vert : les modifications qui seront enregistrées
+
+====================================
+
+commande : git add <dossier ou fichier>
+
+description : (souvent, on tape : git add .)
+permet d'infiquer à git d'ajouter les modifications ciblées au prochain commit.
+Les modifications seront passé de la zone "rouge" (unstagged), qui ne sont pas prises
+en compte lors d'un commit, à la zone verte (stagged).
+Quand une modification est dans la zone "verte", on peut faire un commit.
+En gros, c'est un "attention on va sauvegarder, prépare-toi!"
+
+====================================
+
