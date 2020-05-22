@@ -52,3 +52,13 @@ Pour quitter cette commande il est souvent nécessaire
 d'appuyer sur "q".
 
 ====================================
+
+commande : git remote add origin <url>
+
+description : configure le projet pour l'associer à un dépôt
+git sur github.
+Le dépôt distant, est appelé "origin" (c'est une convention).
+Cette configuration est à faire une fois par projet git, et seulement
+si l'on souhaite le partager / le sauvegarder sur github.
+
+===================================
